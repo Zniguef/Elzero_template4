@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="App">
-      <h1>setup</h1>
+      <h1>Elzero Template 4</h1>
     </div>
   );
 }
