@@ -1,9 +1,10 @@
 import React from "react";
+import { FaBell } from "react-icons/fa";
 
 function Notifications() {
   return (
-    <div>
-      <h5>notification</h5>
+    <div className="ml-3">
+      <FaBell />
     </div>
   );
 }
