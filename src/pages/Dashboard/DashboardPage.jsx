@@ -10,7 +10,7 @@ const Dashboard = () => {
   return (
     <div className="bg-background-color p-4">
       <h1 className="text-xl font-medium mb-4">Dashboard</h1>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between mb-6">
         <Welcome />
         <Draft />
         <Target />

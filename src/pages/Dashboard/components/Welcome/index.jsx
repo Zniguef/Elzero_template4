@@ -4,8 +4,8 @@ import avatar from "../../../../assets/images/avatar.png";
 
 function Welcome() {
   return (
-    <div className="bg-white pb-16 rounded-md">
-      <div className="bg-primary-gray flex justify-between items-center px-2 relative">
+    <div className="bg-white rounded-md w-[33%] h-full">
+      <div className="bg-primary-gray-bg flex justify-between items-center px-2 relative">
         <div className="p-1 w-2/4">
           <h3 className="font-semibold">Welcome</h3>
           <span className="text-xs">Elzero</span>
@@ -17,24 +17,24 @@ function Welcome() {
       <div>
         <img className="w-8 absolute" src={avatar} alt="profile" />
       </div>
-      <div className="flex justify-between items-center px-2 py-7 border-t border-b m-3">
+      <div className="flex justify-between items-center px-5 py-3 border-t border-b mt-8">
         <div className="text-center">
-          <h3>Osama Elzero</h3>
-          <span className="text-primary-gray">Developer</span>
+          <h3 className="text-sm">Osama Elzero</h3>
+          <span className="text-primary-gray text-xs">Developer</span>
         </div>
         <div className="text-center">
-          <span>80</span>
+          <span className="text-sm">80</span>
           <br />
-          <span className="text-primary-gray">projects</span>
+          <span className="text-primary-gray text-xs">projects</span>
         </div>
         <div className="text-center">
-          <span>$8500</span>
+          <span className="text-sm">$8500</span>
           <br />
-          <span className="text-primary-gray">Earned</span>
+          <span className="text-primary-gray text-xs">Earned</span>
         </div>
       </div>
       <div className="flex justify-end mx-3">
-        <button className="bg-primary-blue text-white rounded py-1 px-2">
+        <button className="bg-primary-blue text-white rounded p-1 text-xs">
           Profile
         </button>
       </div>

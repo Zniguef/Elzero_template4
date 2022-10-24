@@ -1,43 +1,62 @@
 import React from "react";
+import { FaTrash } from "react-icons/fa";
 
 function Tasks() {
   return (
-    <div className="bg-white">
-      <h1>Latest Tasks</h1>
+    <div className="bg-white w-[33%] p-3 rounded h-full">
+      <h1 className="text-base font-semibold">Latest Tasks</h1>
       <div className="flex justify-between">
         <div>
-          <p>Record One new video</p>
-          <p>Record python create Exe project</p>
+          <p className="text-xs font-semibold">Record One new video</p>
+          <p className="text-xs text-primary-gray">
+            Record python create Exe project
+          </p>
         </div>
-        <i class="fas fa-accessible-icon">gg</i>
+        <span>
+          <FaTrash />
+        </span>
       </div>
       <div className="flex justify-between">
         <div>
-          <p>Write article</p>
-          <p>Write low level vs high level languages</p>
+          <p className="text-xs font-semibold">Write article</p>
+          <p className="text-xs text-primary-gray">
+            Write low level vs high level languages
+          </p>
         </div>
-        <i class="fas fa-accessible-icon">gg</i>
+        <span>
+          <FaTrash />
+        </span>
       </div>
       <div className="flex justify-between">
         <div>
-          <p>Finish project</p>
-          <p>Publish academy programming project</p>
+          <p className="text-xs font-semibold">Finish project</p>
+          <p className="text-xs text-primary-gray">
+            Publish academy programming project
+          </p>
         </div>
-        <i class="fas fa-accessible-icon">gg</i>
+        <span>
+          <FaTrash />
+        </span>
       </div>
       <div className="flex justify-between">
         <div>
-          <p>Attende the meeting</p>
-          <p>Attende the project business analysic meeting</p>
+          <p className="text-xs font-semibold">Attende the meeting</p>
+          <p className="text-xs text-primary-gray">
+            Attende the project business analysic meeting
+          </p>
         </div>
-        <i class="fas fa-accessible-icon">gg</i>
+        <span>
+          <FaTrash />
+        </span>
       </div>
       <div className="flex justify-between">
         <div>
-          <p>Finish lesson</p>
-          <p>Finisg teaching flex box</p>
+          <p className="text-xs font-semibold">Finish lesson</p>
+          <p className="text-xs text-primary-gray">Finisg teaching flex box</p>
         </div>
-        <i class="fas fa-accessible-icon">gg</i>
+        <span>
+          <FaTrash />
+        </span>
       </div>
     </div>
   );

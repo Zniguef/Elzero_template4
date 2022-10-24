@@ -2,34 +2,36 @@ import React from "react";
 
 function Statistics() {
   return (
-    <div className="bg-white">
-      <h1>Tickets Statistics</h1>
-      <p>Everything about support tickets</p>
+    <div className="bg-white p-3 rounded w-[33%] h-full">
+      <h1 className="font-semibold text-base">Tickets Statistics</h1>
+      <p className="text-xs text-primary-gray">
+        Everything about support tickets
+      </p>
 
-      <div>
-        <div className="flex">
-          <div>
+      <div className="mt-4">
+        <div className="flex items-center justify-between mb-4">
+          <div className="w-[150px] border text-center rounded py-2">
             <i class="fas fa-accessible-icon"></i>
-            <span>2500</span>
-            <p>Total</p>
+            <span className="font-medium">2500</span>
+            <p className="text-xs text-primary-gray">Total</p>
           </div>
-          <div>
+          <div className="w-[150px] border text-center rounded py-2">
             <i class="fas fa-accessible-icon"></i>
-            <span>500</span>
-            <p>Pending</p>
+            <span className="font-medium">500</span>
+            <p className="text-xs text-primary-gray">Pending</p>
           </div>
         </div>
 
-        <div className="flex">
-          <div>
+        <div className="flex items-center justify-between">
+          <div className="w-[150px] border text-center rounded py-2">
             <i class="fas fa-accessible-icon"></i>
-            <span>1900</span>
-            <p>Closed</p>
+            <span className="font-medium">1900</span>
+            <p className="text-xs text-primary-gray">Closed</p>
           </div>
-          <div>
+          <div className="w-[150px] border text-center rounded py-2">
             <i class="fas fa-accessible-icon"></i>
-            <span>100</span>
-            <p>Deleted</p>
+            <span className="font-medium">100</span>
+            <p className="text-xs text-primary-gray">Deleted</p>
           </div>
         </div>
       </div>
