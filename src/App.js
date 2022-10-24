@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./entrypoint/protectedApp/Header/header";
 import SideMenu from "./entrypoint/protectedApp/SideMenu";
 import { Routing } from "./entrypoint/Routes";
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/Dashboard/DashboardPage";
 import Settings from "./pages/Settings";
 
 function App() {

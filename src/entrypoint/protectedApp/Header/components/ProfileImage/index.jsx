@@ -1,7 +1,8 @@
 import React from "react";
+import avatar from "../../../../../assets/images/avatar.png";
 
 function ProfileImage() {
-  return <h5>profile image</h5>;
+  return <img className="w-5" src={avatar} alt="avatar" />;
 }
 
 export default ProfileImage;
