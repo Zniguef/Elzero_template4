@@ -1,0 +1,30 @@
+.searchBoxContainer {
+  position: relative;
+  display: flex;
+  gap: 0;
+}
+
+.searchIcon {
+  width: 42px;
+  padding: 0 10px 0 10px;
+  color: #B3B3B3;
+  height: 100%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-left: 1px #B3B3B3 solid;
+  border-top: 1px #B3B3B3 solid;
+  border-bottom: 1px #B3B3B3 solid;
+}
+
+.searchInput {
+  border: none;
+  font-size: 14px;
+  width: 150px;
+  border-radius: 0;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-right: 1px #B3B3B3 solid;
+  border-top: 1px #B3B3B3 solid;
+  border-bottom: 1px #B3B3B3 solid;
+  height: 40px;
+}

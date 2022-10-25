@@ -12,6 +12,8 @@ module.exports = {
         "primary-gray": "#888888",
         "primary-red": "#F44336",
         "background-color": "#F1F5F9",
+        "secondary-dark": "#252a33",
+        dark: "#1c1e26",
       },
     },
   },

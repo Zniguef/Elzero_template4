@@ -2,12 +2,27 @@ import React from "react";
 import Notifications from "./components/Notification";
 import ProfileImage from "./components/ProfileImage";
 import Search from "./components/Search";
+import { DarkModeContext } from "../../../App";
+import "./styles.scss";
 
-const Header = () => {
+const Header = ({ setState }) => {
+  const isDarkMode = React.useContext(DarkModeContext);
   return (
-    <div className="flex justify-between px-4 py-5">
+    <div
+      className={`${
+        isDarkMode ? "bg-secondary-dark" : "bg-white"
+      } flex justify-between px-4 py-5`}
+    >
       <Search />
       <div className="flex justify-between items-center px-3 gap-3">
+        <label className="dark-mode-switch">
+          <input
+            className="dark-mode-input"
+            type="checkbox"
+            onChange={() => setState((prev) => !prev)}
+          />
+          <span className="dark-mode-slider dark-mode-round"></span>
+        </label>
         <Notifications />
         <ProfileImage />
       </div>

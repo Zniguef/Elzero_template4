@@ -1,12 +1,13 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
+import "./styles.scss";
 
 function Search() {
   return (
-    <div>
-      <FaSearch className="absolute bg-red-500 z-50" />
+    <div className={`searchBoxContainer pl-2`}>
+      <FaSearch className="searchIcon" />
       <input
-        className="outline-none border p-1 rounded relative"
+        className="searchInput bg-transparent"
         type="search"
         name=""
         id=""

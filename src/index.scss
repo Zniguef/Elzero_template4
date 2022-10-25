@@ -9,3 +9,25 @@
 .main-container {
   width: calc(100vw - 176px);
 }
+
+.current-page {
+  height: calc(100vh - 80px);
+}
+
+.current-page::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.current-page::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.current-page::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.current-page::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
