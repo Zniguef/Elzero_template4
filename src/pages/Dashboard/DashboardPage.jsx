@@ -10,12 +10,12 @@ const Dashboard = () => {
   return (
     <div className="bg-background-color p-4">
       <h1 className="text-xl font-medium mb-4">Dashboard</h1>
-      <div className="flex items-center justify-between mb-6">
+      <div className="grid grid-cols-3 mb-6 gap-4">
         <Welcome />
         <Draft />
         <Target />
       </div>
-      <div className="flex items-center justify-between">
+      <div className="grid grid-cols-3 gap-4">
         <Statistics />
         <News />
         <Tasks />

@@ -1,0 +1,11 @@
+.disabeld-task {
+  .taskIcon {
+    color: gray;
+  }
+  div {
+    p {
+      text-decoration: line-through;
+      color: gray;
+    }
+  }
+}
