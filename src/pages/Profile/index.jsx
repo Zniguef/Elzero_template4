@@ -4,7 +4,7 @@ import "./styles.scss";
 import Card from "./components/Card";
 import Skills from "./components/Skills";
 import Activities from "./components/Activities";
-import { DarkModeContext } from "../../App";
+import { DarkModeContext } from "../../core/context/DarkModeContext";
 
 const Profile = () => {
   const isDarkMode = React.useContext(DarkModeContext);

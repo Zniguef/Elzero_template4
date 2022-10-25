@@ -2,7 +2,7 @@ import React from "react";
 
 function Draft() {
   return (
-    <div className="bg-white w-[33%] p-3 rounded-md h-full">
+    <div className="bg-white w-full p-3 rounded-md h-full">
       <h1 className="font-semibold text-base">Quick Draft</h1>
       <p className="text-sm text-primary-gray py-2">
         Write A Draft For Yout Ideas

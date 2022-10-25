@@ -3,7 +3,7 @@ import { FaDollarSign, FaUserAlt } from "react-icons/fa";
 
 function Target() {
   return (
-    <div className="bg-white w-[33%] p-3 rounded h-full">
+    <div className="bg-white w-full p-3 rounded h-full">
       <h1 className="text-base font-semibold">Yearly Target</h1>
       <p className="text-primary-gray text-xs py-1">Targets of the year</p>
 
@@ -16,7 +16,7 @@ function Target() {
           <span className="text-sm font-medium">$20.000</span>
           <div>
             <span className="text-xs">80%</span>
-            <input type="range" name="" id="" value="80" />
+            <input type="range" name="" id="" value="80" onChange={() => {}} />
           </div>
         </div>
       </div>
@@ -28,7 +28,7 @@ function Target() {
           <span className="text-sm font-medium">24</span>
           <div>
             <span className="text-xs">55%</span>
-            <input type="range" name="" id="" value="55" />
+            <input type="range" name="" id="" value="55" onChange={() => {}} />
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@ function Target() {
           <span className="text-sm font-medium">12</span>
           <div>
             <span className="text-xs">75%</span>
-            <input type="range" name="" id="" value="75" />
+            <input type="range" name="" id="" value="75" onChange={() => {}} />
           </div>
         </div>
       </div>

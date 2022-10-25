@@ -4,7 +4,7 @@ import avatar from "../../../../assets/images/avatar.png";
 
 function Welcome() {
   return (
-    <div className="bg-white rounded-md w-[33%] h-full">
+    <div className="bg-white rounded-md w-full h-full">
       <div className="bg-primary-gray-bg flex justify-between items-center px-2 relative">
         <div className="p-1 w-2/4">
           <h3 className="font-semibold">Welcome</h3>
@@ -15,7 +15,7 @@ function Welcome() {
         </div>
       </div>
       <div>
-        <img className="w-8 absolute" src={avatar} alt="profile" />
+        <img className="w-8 -translate-y-1/2" src={avatar} alt="profile" />
       </div>
       <div className="flex justify-between items-center px-5 py-3 border-t border-b mt-8">
         <div className="text-center">
@@ -33,7 +33,7 @@ function Welcome() {
           <span className="text-primary-gray text-xs">Earned</span>
         </div>
       </div>
-      <div className="flex justify-end mx-3">
+      <div className="flex justify-end mx-3 my-4">
         <button className="bg-primary-blue text-white rounded p-1 text-xs">
           Profile
         </button>

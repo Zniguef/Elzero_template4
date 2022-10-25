@@ -1,63 +1,25 @@
 import React from "react";
-import { FaTrash } from "react-icons/fa";
+import { latestTasks } from "../../../../core/data/Dashboard/latestTasks";
+import "./style.scss";
 
-function Tasks() {
+function Tasks({ isDarkMode }) {
   return (
-    <div className="bg-white w-[33%] p-3 rounded h-full">
+    <div className={`${isDarkMode ? "bg-secondary-dark text-white" : "bg-white text-black"} w-full p-3 rounded h-full`}>
       <h1 className="text-base font-semibold">Latest Tasks</h1>
-      <div className="flex justify-between">
-        <div>
-          <p className="text-xs font-semibold">Record One new video</p>
-          <p className="text-xs text-primary-gray">
-            Record python create Exe project
-          </p>
+      {latestTasks.map(({ icon: Icon, ...task }) => (
+        <div
+          key={task.id}
+          className={`${
+            task.id === "4" ? " disabeld-task" : ""
+          } flex justify-between py-4 border-b last:border-b-0`}
+        >
+          <div>
+            <p className="text-xs font-semibold">{task.title}</p>
+            <p className="text-xs text-primary-gray">{task.description}</p>
+          </div>
+          <Icon className="taskIcon" />
         </div>
-        <span>
-          <FaTrash />
-        </span>
-      </div>
-      <div className="flex justify-between">
-        <div>
-          <p className="text-xs font-semibold">Write article</p>
-          <p className="text-xs text-primary-gray">
-            Write low level vs high level languages
-          </p>
-        </div>
-        <span>
-          <FaTrash />
-        </span>
-      </div>
-      <div className="flex justify-between">
-        <div>
-          <p className="text-xs font-semibold">Finish project</p>
-          <p className="text-xs text-primary-gray">
-            Publish academy programming project
-          </p>
-        </div>
-        <span>
-          <FaTrash />
-        </span>
-      </div>
-      <div className="flex justify-between">
-        <div>
-          <p className="text-xs font-semibold">Attende the meeting</p>
-          <p className="text-xs text-primary-gray">
-            Attende the project business analysic meeting
-          </p>
-        </div>
-        <span>
-          <FaTrash />
-        </span>
-      </div>
-      <div className="flex justify-between">
-        <div>
-          <p className="text-xs font-semibold">Finish lesson</p>
-          <p className="text-xs text-primary-gray">Finisg teaching flex box</p>
-        </div>
-        <span>
-          <FaTrash />
-        </span>
-      </div>
+      ))}
     </div>
   );
 }
