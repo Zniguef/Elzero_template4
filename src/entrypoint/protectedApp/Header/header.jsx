@@ -1,8 +1,8 @@
 import React from "react";
+import { DarkModeContext } from "../../../core/context/DarkModeContext";
 import Notifications from "./components/Notification";
 import ProfileImage from "./components/ProfileImage";
 import Search from "./components/Search";
-import { DarkModeContext } from "../../../App";
 import "./styles.scss";
 
 const Header = ({ setState }) => {

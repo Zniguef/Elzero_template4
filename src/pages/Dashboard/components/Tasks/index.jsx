@@ -2,9 +2,9 @@ import React from "react";
 import { latestTasks } from "../../../../core/data/Dashboard/latestTasks";
 import "./style.scss";
 
-function Tasks() {
+function Tasks({ isDarkMode }) {
   return (
-    <div className="bg-white w-full p-3 rounded h-full">
+    <div className={`${isDarkMode ? "bg-secondary-dark text-white" : "bg-white text-black"} w-full p-3 rounded h-full`}>
       <h1 className="text-base font-semibold">Latest Tasks</h1>
       {latestTasks.map(({ icon: Icon, ...task }) => (
         <div

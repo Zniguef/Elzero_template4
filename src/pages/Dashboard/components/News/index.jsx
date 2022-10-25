@@ -1,9 +1,9 @@
 import React from "react";
 import { latestNews } from "../../../../core/data/Dashboard/LatestNews";
 
-function News() {
+function News({ isDarkMode }) {
   return (
-    <div className="bg-white w-full rounded p-3 h-full">
+    <div className={`${isDarkMode ? "bg-secondary-dark text-white" : "bg-white text-black"} w-full rounded p-3 h-full`}>
       <h1 className="text-base font-semibold p-3 ">Latest News</h1>
       {latestNews.map((latestNew) => (
         <div

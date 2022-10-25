@@ -1,5 +1,5 @@
 import * as React from "react";
-import { DarkModeContext } from "../../App";
+import { DarkModeContext } from "../../core/context/DarkModeContext";
 
 function MainTitle({ title, className = "" }) {
   const isDarkMode = React.useContext(DarkModeContext);

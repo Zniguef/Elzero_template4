@@ -6,8 +6,7 @@ import { Routing } from "./entrypoint/Routes";
 import Dashboard from "./pages/Dashboard/DashboardPage";
 import Settings from "./pages/Settings";
 import Profile from "./pages/Profile";
-
-export const DarkModeContext = React.createContext(false);
+import { DarkModeContext } from "./core/context/DarkModeContext";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = React.useState(true);
@@ -18,7 +17,7 @@ function App() {
         <SideMenu />
         <div
           className={`${
-            isDarkMode ? "bg-dark" : "bg-primary-gray-bg"
+            isDarkMode ? "bg-dark" : "bg-background-color"
           } w-full overflow-hidden`}
         >
           <Header setState={setIsDarkMode} />

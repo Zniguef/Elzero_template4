@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { BsChevronDoubleLeft } from "react-icons/bs";
 import { menuItems } from "../../../core/data/SideMenu";
-import { DarkModeContext } from "../../../App";
+import { DarkModeContext } from "../../../core/context/DarkModeContext";
 
 const SideMenu = () => {
   const [isMenuCollapsed, setIsMenuCollapsed] = React.useState(false);
