@@ -7,6 +7,7 @@ import Dashboard from "./pages/Dashboard/DashboardPage";
 import Settings from "./pages/Settings";
 import Profile from "./pages/Profile";
 import { DarkModeContext } from "./core/context/DarkModeContext";
+import Projects from "./pages/projects";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = React.useState(true);
@@ -27,6 +28,7 @@ function App() {
                 <Route path={Routing.app.path} element={<Dashboard />} />
                 <Route path={Routing.settings.path} element={<Settings />} />
                 <Route path={Routing.profile.path} element={<Profile />} />
+                <Route path={Routing.projects.path} element={<Projects />} />
               </Routes>
             </div>
           </div>
