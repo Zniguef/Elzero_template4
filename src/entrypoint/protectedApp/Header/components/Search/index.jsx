@@ -26,9 +26,10 @@ function Search() {
   }
 
   function navigateToPage(e) {
+    console.log(e);
     if (
       e?.ctrlKey === true &&
-      e?.key === "Enter" &&
+      (e?.key === "Enter" || e?.key === "\n") &&
       path !== undefined &&
       path !== ""
     )
