@@ -1,5 +1,6 @@
 export const Routing = Object.freeze({
-  app: { path: "/" },
+  login: { path: "/login" },
+  dashboard: { path: "/" },
   settings: { path: "/settings" },
   profile: { path: "/profile" },
   projects: { path: "/projects" },
