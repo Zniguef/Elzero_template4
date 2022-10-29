@@ -1,9 +1,19 @@
 import React from "react";
 
-function Draft() {
+function Draft({ isDarkMode }) {
   return (
-    <div className="bg-white w-full p-3 rounded-md h-full">
-      <h1 className="font-semibold text-base">Quick Draft</h1>
+    <div
+      className={`${
+        isDarkMode ? "bg-secondary-dark text-white" : "bg-white text-black"
+      } w-full p-3 rounded-md h-full`}
+    >
+      <h1
+        className={`${
+          isDarkMode ? "text-white" : "text-black"
+        } font-semibold text-base`}
+      >
+        Quick Draft
+      </h1>
       <p className="text-sm text-primary-gray py-2">
         Write A Draft For Yout Ideas
       </p>

@@ -1,9 +1,13 @@
 import React from "react";
 import { FaDollarSign, FaUserAlt } from "react-icons/fa";
 
-function Target() {
+function Target({ isDarkMode }) {
   return (
-    <div className="bg-white w-full p-3 rounded h-full">
+    <div
+      className={`${
+        isDarkMode ? "bg-secondary-dark text-white" : "bg-white text-black"
+      } w-full p-3 rounded h-full`}
+    >
       <h1 className="text-base font-semibold">Yearly Target</h1>
       <p className="text-primary-gray text-xs py-1">Targets of the year</p>
 
