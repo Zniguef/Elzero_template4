@@ -1,0 +1,11 @@
+.projects-progress-input::before {
+  content: "";
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  right: 50%;
+  height: 0.5;
+  background-color: #0075ff;
+  width: 1px;
+  height: 24px;
+}
