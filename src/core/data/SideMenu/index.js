@@ -15,7 +15,7 @@ export const menuItems = [
   {
     id: 1,
     icon: FaChartBar,
-    link: Routing.app.path,
+    link: Routing.dashboard.path,
     name: sideMenuConsts.dashboard,
   },
   {
