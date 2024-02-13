@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Elzero_template4/static/css/main.0b535bbd.css",
+    "main.js": "/Elzero_template4/static/js/main.a3f9fb2a.js",
+    "static/media/news-04.png": "/Elzero_template4/static/media/news-04.a02aff23df72ac1dcc1f.png",
+    "static/media/news-02.png": "/Elzero_template4/static/media/news-02.c015f313cf6cf401ac2c.png",
+    "static/media/news-01.png": "/Elzero_template4/static/media/news-01.b852d39c771ffd520f8a.png",
+    "static/media/news-03.png": "/Elzero_template4/static/media/news-03.1a9d17ff67474cc45ffb.png",
+    "static/media/welcome.png": "/Elzero_template4/static/media/welcome.3a0dea0e2afe2ce1ab2a.png",
+    "static/media/woman.png": "/Elzero_template4/static/media/woman.b078755c3606be916daa.png",
+    "static/media/avatar.png": "/Elzero_template4/static/media/avatar.a96eb7a29284bc051da9.png",
+    "static/media/woman2.png": "/Elzero_template4/static/media/woman2.0a53e1a33d7ab4525521.png",
+    "static/media/avatar2.png": "/Elzero_template4/static/media/avatar2.f9c98e6bb33ddb1fb51c.png",
+    "static/media/woman1.png": "/Elzero_template4/static/media/woman1.f93109ccaf6090e65a5f.png",
+    "static/media/avatar1.png": "/Elzero_template4/static/media/avatar1.ba422ca13bb76ae93687.png",
+    "index.html": "/Elzero_template4/index.html",
+    "main.0b535bbd.css.map": "/Elzero_template4/static/css/main.0b535bbd.css.map",
+    "main.a3f9fb2a.js.map": "/Elzero_template4/static/js/main.a3f9fb2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b535bbd.css",
+    "static/js/main.a3f9fb2a.js"
+  ]
+}
